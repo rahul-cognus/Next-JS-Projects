@@ -7,7 +7,6 @@ const Restaurant = () => {
     const [login, setLogin] = useState(true)
     return (
         <>
-            <div>Restaurant Login / Signup Page</div>
             {
                 login ? <RestaurantLogin /> : <RestaurantSignUp />
             }

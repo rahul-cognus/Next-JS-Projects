@@ -27,12 +27,20 @@ const RestaurantSignUp = () => {
                       <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required=""/>
                   </div>
                   <div>
-                      <label htmlFor="restaurant-name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Confirm password</label>
+                      <label htmlFor="restaurant-name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Restaurant Name</label>
                       <input type="text" name="restaurant-name" id="restaurant-name" placeholder="Enter Restaurant Name" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required=""/>
                   </div>
                   <div>
-                      <label htmlFor="city-name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Confirm password</label>
+                      <label htmlFor="city-name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">City</label>
                       <input type="text" name="city-name" id="city-name" placeholder="Enter City Name" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required=""/>
+                  </div>
+                  <div>
+                      <label htmlFor="full-address" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Full Address</label>
+                      <input type="text" name="full-address" id="full-address" placeholder="Enter Full Address" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required=""/>
+                  </div>
+                  <div>
+                      <label htmlFor="contact-number" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Contact Number</label>
+                      <input type="number" name="contact-number" id="contact-number" placeholder="Enter Contact Number" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required=""/>
                   </div>
                   <div className="flex items-start">
                       <div className="flex items-center h-5">
